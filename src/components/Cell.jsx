@@ -1,9 +1,12 @@
 import React from 'react';
+import TitleText from './TitleText.jsx';
+import styles from '../generalStyles.css';
 
 const Cell = () => {
   return(
-    <div style={{display: 'flex'}}>
-    <div style={{borderStyle: 'solid', width: '20px'}}> Table X is running! </div>
+    <div >
+     {/*<div > Table X is running! </div>*/}
+      <TitleText text="aaabbbbxxxx" classStyle={styles.textTitle}/>
     </div>
   )
 };

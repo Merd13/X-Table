@@ -1,0 +1,7 @@
+.cell-container {
+  display: flex;
+}
+
+:local(.textTitle ) {
+  font-size: 30px;
+}
