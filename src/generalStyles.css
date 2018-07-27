@@ -17,8 +17,8 @@
     display: flex;
     /*align-items: center;*/
     justify-content: center;
-    border-style: dotted;
-    border-color: aqua;
+    /*border-style: dotted;*/
+    /*border-color: aqua;*/
 }
 
 :local(.headerCell) {
@@ -34,3 +34,22 @@
     justify-content: center;
 }
 
+:local(.tableNew) {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+
+}
+
+:local(.textNew) {
+    color: green;
+    border: solid purple;
+
+}
+
+
+:local(.imagen) {
+    width: 40px;
+    height: 40px;
+
+}
