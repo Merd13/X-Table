@@ -34,22 +34,33 @@
     justify-content: center;
 }
 
-:local(.tableNew) {
+:local(.cellContainer) {
     display: flex;
     /*align-items: center;*/
     justify-content: center;
 
 }
 
-:local(.textNew) {
+:local(.infoCell) {
     color: green;
     border: solid purple;
 
 }
 
 
-:local(.imagen) {
+:local(.image) {
     width: 40px;
     height: 40px;
 
+}
+
+:local(.buttonGroup) {
+    width: 80px;
+    border: solid lightgrey 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+:local(.defaultButton) {
+    /*border: solid black;*/
 }
