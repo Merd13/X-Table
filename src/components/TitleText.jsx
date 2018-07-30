@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const TitleText = (props) => {
-  // console.log('here', props);
   return (
       <b className={props.textStyle}>{props.text}</b>
   )
