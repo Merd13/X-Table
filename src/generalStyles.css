@@ -2,6 +2,65 @@
   display: flex;
 }
 
-:local(.textTitle ) {
-  font-size: 30px;
+:local(.textHeader ) {
+    font-size: 30px;
+}
+
+:local(.textRow ) {
+    font-size: 20px;
+    border-color: gray;
+}
+
+
+
+:local(.tableHeader) {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    /*border-style: dotted;*/
+    /*border-color: aqua;*/
+}
+
+:local(.headerCell) {
+    border: solid black;
+}
+
+:local(.rowCell) {
+    border: solid darkgrey;
+}
+
+:local(.tableRow) {
+    display: flex;
+    justify-content: center;
+}
+
+:local(.cellContainer) {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+
+}
+
+:local(.infoCell) {
+    color: green;
+    border: solid purple;
+
+}
+
+
+:local(.image) {
+    width: 40px;
+    height: 40px;
+
+}
+
+:local(.buttonGroup) {
+    width: 80px;
+    border: solid lightgrey 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+:local(.defaultButton) {
+    /*border: solid black;*/
 }

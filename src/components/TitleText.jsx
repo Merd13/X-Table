@@ -2,11 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const TitleText = (props) => {
-  console.log('here', props);
   return (
-    <div>
-      <b className={props.classStyle}>{props.text}</b>
-    </div>
+      <b className={props.textStyle}>{props.text}</b>
   )
 };
 
@@ -16,7 +13,10 @@ TitleText.defaultProps = {
 
 TitleText.prototype = {
   text : PropTypes.string,
-  classStyle : PropTypes.any,
+  textStyle : PropTypes.any,
 };
+
+// PropTypes.checkPropTypes(TitleText.propTypes, TitleText.props, 'prop',
+//   'TitleText');
 
 export default TitleText;
