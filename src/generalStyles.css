@@ -64,3 +64,59 @@
 :local(.defaultButton) {
     /*border: solid black;*/
 }
+
+:local(.menuPanelStyle) {
+    border: solid thin blue;
+    background-color: rgba(0, 0, 255, 0.53);
+    flex: 1;
+
+}
+
+
+:local(.bodyPanelStyle) {
+    border: solid thin blueviolet;
+    background-color: rgba(138, 43, 226, 0.62);
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:local(.pageHandlerStyle) {
+    /* view port height/width*/
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    /*align-items: flex-end;*/
+}
+
+:local(.menuItemStyle) {
+    /*border: solid;*/
+    /*background-color: rgba(138, 43, 226, 0.62);*/
+    height: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*justify-content: space-around;*/
+
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+
+}
+
+:local(.menuItemStyle):hover {
+    /*background-color: yellow;*/
+    text-decoration: underline;
+    transform: rotate(20deg);
+    /*transform: skewY(20deg);*/
+}
+
+:local(.selectedItemStyle) {
+    border: solid thin  rgba(0, 0, 255, 0.2);
+    background-color: rgba(0, 0, 255, 0.1);
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
